@@ -4,11 +4,11 @@ let a = Number(input[0])
 let b = Number(input[1])
 let c = Number(input[2])
 
-let satisfied = false;
+let satisfied = true;
 
 for (let i = a; i <= b; i++) {
-    if (i % c != 0) {
-        satisfied = true;
+    if (i % c == 0) {
+        satisfied = false;
     }
 }
 
