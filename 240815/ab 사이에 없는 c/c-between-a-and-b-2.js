@@ -13,7 +13,7 @@ for (let i = a; i <= b; i++) {
 }
 
 // 출력
-if (satisfied === true) {
+if (satisfied == true) {
     console.log("YES");
 }
 else {
