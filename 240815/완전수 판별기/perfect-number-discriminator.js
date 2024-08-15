@@ -12,7 +12,7 @@ for (let i=1; i<=n; i++) {
 
 if(count>=1) {
         console.log("P")
-    }
-    else {
+}
+else {
         console.log("N")
-    }
+}
