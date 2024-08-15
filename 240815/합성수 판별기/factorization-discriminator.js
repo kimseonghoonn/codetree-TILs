@@ -8,5 +8,6 @@ for(let i=2; i<n; i++) {
     else {
         console.log("C")
         break
-    }
+    } 
 }
+console.log("N")
