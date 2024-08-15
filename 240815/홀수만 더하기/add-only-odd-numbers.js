@@ -7,7 +7,7 @@ let result= 0
 for (let i=1; i<=n; i++) {     //그래서 이 개수까지 반복
     let x = Number(input[i])  //x는  
     if(x%2==1 && x%3==0) {
-        result +=n[i]
+        result +=x
     }
 }
 
