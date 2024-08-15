@@ -12,4 +12,4 @@ for (let elem of n) {
     count++
 }
 
-console.log(sum, (sum/count))
+console.log(sum, (sum/count).toFixed(1))
