@@ -11,8 +11,8 @@ for (let i=1; i<=n; i++) {
 }
 
 if(count>=1) {
-        console.log("P")
+    console.log("N")
 }
 else {
-        console.log("N")
+    console.log("P")
 }
