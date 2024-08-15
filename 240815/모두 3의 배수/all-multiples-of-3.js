@@ -1,9 +1,9 @@
 const fs = require("fs");
 let n= fs.readFileSync(0).toString().trim().split("\n").map(Number)
 
-let satisfied = true;
+let satisfied = true
 
-for (let i = 0; i < n; i++) {
+for (let i = 0; i < 5; i++) {
     if (n[i]%3!=0) {
         satisfied=false
     }
