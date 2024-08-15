@@ -9,4 +9,10 @@ for (let i=a; i<=b; i++) {
     }
 }
 
+for (let i=b; i<=a; i++) {
+    if(i%5==0) {
+        result +=i
+    }
+}
+
 console.log(result)
