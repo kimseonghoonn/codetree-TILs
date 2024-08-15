@@ -1,15 +1,19 @@
 const fs = require("fs");
-let n = fs.readFileSync(0).toString().trim().split(" ");
+let n = fs.readFileSync(0).toString().trim().split(" ").map(Number);
 
-for(let i=2; i<n; i++) {
-    if (n%i!=0) {
-        continue
+let satisfied = false;
+
+for (let i = 2; i < n; i++) {
+    // n의 약수가 있다면 합성수입니다.
+    if (n % i === 0) {
+        satisfied = true;
     }
-    else if(i==(n-1)) {
-        console.log("N")
-    }
-    else {
-        console.log("C")
-        break
-    }
+}
+
+// 출력
+if (satisfied === true) {
+    console.log("C");
+}
+else {
+    console.log("N");
 }
