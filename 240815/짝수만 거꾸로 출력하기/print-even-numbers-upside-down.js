@@ -6,7 +6,7 @@ let sum =""
 
 for (let i=0; i<gr; i++) {
     if(test[i]%2==0) {
-        sum +=test[i]+" "
+        sum += test[i]+" "
     }
 }
 console.log(sum)
