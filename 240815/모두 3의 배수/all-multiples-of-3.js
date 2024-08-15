@@ -11,8 +11,8 @@ for (let i = 0; i < n; i++) {
 
 // 출력
 if (satisfied == true) {
-    console.log("P");
+    console.log(1);
 }
 else {
-    console.log("C");
+    console.log(0);
 }
