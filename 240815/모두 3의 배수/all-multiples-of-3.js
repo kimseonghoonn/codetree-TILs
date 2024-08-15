@@ -1,11 +1,11 @@
 const fs = require("fs");
 let n= fs.readFileSync(0).toString().trim().split("\n").map(Number)
 
-let satisfied = false;
+let satisfied = true;
 
 for (let i = 0; i < n; i++) {
-    if (n[i]%3==0) {
-        satisfied=true
+    if (n[i]%3!=0) {
+        satisfied=false
     }
 }
 
