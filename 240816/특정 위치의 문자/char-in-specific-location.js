@@ -14,4 +14,6 @@ if (idx == -1) {
     console.log("None")
 }
 
-console.log(idx)
+else {
+    console.log(idx)
+}
