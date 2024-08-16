@@ -1,9 +1,9 @@
 const fs = require('fs');
 let a = fs.readFileSync(0).toString().trim().split(" ").map(Number);
 
-let max = a[0]
+let max = Number.MIN_SAFE_INTEGER;
 for (let i=1; i<10; i++) {
-    if (a[0]<=a[i]) {
+    if (max<=a[i]) {
         max = a[i]
     }
 }
