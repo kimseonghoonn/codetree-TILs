@@ -6,8 +6,7 @@ let len1 = str1.length
 let len2 = str2.length
 let len3 = str3.length
 
-if (len1 > len2) {
-    if(len2>len3) {
-       console.log(len3) 
-    }
-}
+let max = Math.max(len1, len2, len3)
+let min = Math.min(len1, len2, len3)
+
+console.log(max-min)
