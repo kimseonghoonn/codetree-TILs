@@ -11,6 +11,6 @@ if (len1 > len2) {
 else if (len1 < len2) {
     console.log("Coding" + " " + len2)
 }
-else {
+else if  (len1 == len2){
     console.log("same")
 }
