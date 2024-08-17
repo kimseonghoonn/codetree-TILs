@@ -1,18 +1,10 @@
-const fs = require("fs")
+const fs = require("fs");
 
-let input = fs.readFileSync(0).toString().trim().split("\n")
+let input = fs.readFileSync(0).toString().trim().split("\n");
 
-let str1 = input[0].split(" ")
-let str2 = input[1].split(" ")
+let str1 = input[0].split(" ").join(""); // 공백 제거
+let str2 = input[1].split(" ").join(""); // 공백 제거
 
-let len1 = str1.length
-let len2 = str2.length
+let result = str1 + str2;
 
-let str=" "
-for (let i=0; i<len1; i++) {
-    str+=str1[i]
-}
-for (let i=0; i<len2; i++) {
-    str+=str2[i]
-}
-console.log(str)
+console.log(result);
