@@ -5,8 +5,7 @@ function printNLines(n,m) {
             r = i;
         }
     }
-    let lcm = n*m/r
-    console.log(lcm)
+    console.log(n*m/r)
 }
 const fs = require('fs');
 let [n,m] = fs.readFileSync(0).toString().trim().split(" ").map(Number)
