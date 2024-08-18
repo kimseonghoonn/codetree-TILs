@@ -6,7 +6,6 @@ let avg = 0
 
 for (let i=1; i<input[0]; i++) {
     if(input[i][0] == input[5]) {
-        input[i]
         count++
         avg += input[i].length
     }
