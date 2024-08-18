@@ -4,10 +4,8 @@ let cnt=0
 let count = 0
 for (let i=1; i<=input[0]; i++) {
     cnt +=input[i].length
-    for (let j=0; j<input[i].length+1; j++) {
-        if (input[i][j] == 'a') {
-            count++
+    if (input[i][0] == 'a') {
+        count++
         }
-    }
 }
 console.log(cnt, count)
