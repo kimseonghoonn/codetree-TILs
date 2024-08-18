@@ -10,5 +10,5 @@ function fun(n) {
         result +=i
     }
 
-    return result/10
+    return parseInt(result/10)
 }
