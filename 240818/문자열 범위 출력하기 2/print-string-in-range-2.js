@@ -10,7 +10,7 @@ if (a.length>b) {
     }
 }
 else if (a.length<b) {
-    for (let i= 0; i<a.length-1; i++) {
+    for (let i= 0; i<a.length; i++) {
         str += a[i]
     }
 }
