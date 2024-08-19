@@ -1,8 +1,8 @@
 const fs = require('fs');
 let a= fs.readFileSync(0).toString().trim()
 
-for (let i=0; i<a.length; i++) {
-    let o = modify(a[i], a[-i])
+for (let i=0; i<(parseInt(a.length/2)); i++) {
+    let o = modify(a[i], a[a.length])
 }
 
 if (o = true) console.log("Yes")
