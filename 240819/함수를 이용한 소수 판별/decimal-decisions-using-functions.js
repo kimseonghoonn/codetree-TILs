@@ -7,9 +7,8 @@ console.log(fu)
 
 function fun(a,b) {
     let count=0
-    if (a==1 ||b==1) 
     for (let i=a; i<=b; i++) {
-        if (a==1 ||b==1) break
+        if (a==1 && b==1) break
         let o = true
         for (let j=2; j<i; j++) {
             if (i%j!=0) {
